@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f3e5d8;
+}
+.cartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 45px;
+    gap: 10px;
+    align-content: center;
+    margin: 50px auto 50px auto;
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+}
+
+.cartao .imagem img {
+    max-width: 100%;
+    width: 650px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 37px;
+    font-family: 'Young serif';
+    font-weight: lighter;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    color: #824832;
+    font-family: 'Young serif';
+    font-weight: lighter;
+}
+
+hr {
+    width: 100%;
+    display: flex;
+    opacity: 30%;
+}
+
+li {
+    padding: 7px;
+}
+
+li::marker {
+    color: #682944;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bolder;
+    color: #682944;
+}
+
+p {
+    font-size: 16px;
+}
+
+.preparacao {
+    background-color: #fff7fc;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.preparacao h3 {
+    text-indent: 3%;
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredientes {
+    width: 100%;
+    text-align: left;
+}
+
+.ingredientes h2 {
+    text-indent: 16px;
+}
+
+.instrucoes {
+    width: 100%;
+    text-align: left;
+}
+
+.instrucoes h2 {
+    text-indent: 16px;
+}
+
+.nutricao {
+    width: 100%;
+    text-align: left;
+}
+
+.nutricao h2 {
+    text-indent: 16px;
+}
+
+.nutricao p {
+    padding: 10px;
+}
+
+.nutricao .caloria {
+    word-spacing: 245px;
+}
+.nutricao .carbo {
+    word-spacing: 260px;
+}
+.nutricao .proteina {
+    word-spacing: 250px;
+}
+.nutricao .fat {
+    word-spacing: 280px;
+}

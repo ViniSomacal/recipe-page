@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media (max-width: 375px) {
+    .cartao {
+        border-radius: 0px;
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .cartao .imagem img {
+        border-radius: 0px;
+    }
+
+    .texto-inicial {
+        padding: 30px;
+        padding-top: 0px;
+        margin-bottom: -40px;
+    }
+
+    .preparacao {
+        width: auto;
+    }
+
+    .ingredientes {
+        padding: 30px;
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
+
+    .instrucoes {
+        padding: 30px;
+        margin-top: -40px;
+        margin-bottom: -10%;
+    }
+
+    .nutricao {
+        padding: 30px;
+        margin-top: -40px;
+        margin-bottom: 10px;
+    }
+
+    .nutricao .caloria {
+        word-spacing: 100px;
+    }
+    .nutricao .carbo {
+        word-spacing: 115px;
+    }
+    .nutricao .proteina {
+        word-spacing: 105px;
+    }
+    .nutricao .fat {
+        word-spacing: 133px;
+    }
+
+    hr {
+        width: 90%;
+    }
+}
